@@ -16,7 +16,7 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-To start the webserver run the following command:
+To start the webserver locally run the following command:
 ```
 uvicorn app.main:app --reload
 ```
