@@ -10,15 +10,15 @@ Tech stack includes:
 
 ## Setup
 To setup, run the following commands in the main directory:
-'''
+```
 python -m venv venv
 ./venv/Scripts/Activate.psi
 pip install -r requirements.txt
-'''
+```
 
 To start the webserver run the following command:
-'''
+```
 uvicorn app.main:app --reload
-'''
+```
 
-For documentation start the webserver and then open '''localhost:8000/docs''' in a web-browser
+For documentation start the webserver and then open ```localhost:8000/docs``` in a web-browser
